@@ -1,18 +1,7 @@
-# Three.js Journey
+#16th step towards Three.js Journey
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+#Site preview @ https://threejs-house.netlify.app/
 
-``` bash
-# Install dependencies (only the first time)
-npm install
+![image](https://user-images.githubusercontent.com/66732877/118828261-bbea2e00-b8da-11eb-9a79-c6f13c5bab46.png) 
 
-# Run the local server at localhost:8080
-npm run dev
 
-# Build for production in the dist/ directory
-npm run build
-```
-"# threejs-house" 
-"# threejs-house" 
