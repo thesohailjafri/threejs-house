@@ -189,13 +189,7 @@ bush6.scale.set(.75, .55, .55)
 scene.add(bush1, bush2, bush3, bush4, bush5, bush6)
 
 /* Tombstones */
-const stoneMaterial = new THREE.MeshStandardMaterial(
-    {
-        map: bricksColorTexture,
-        normalMap: bricksNormalTexture,
-        roughnessMap: bricksRoughnessTexture,
-    }
-)
+const stoneMaterial = new THREE.MeshStandardMaterial()
 const stoneGeometry = new THREE.BoxBufferGeometry(.5, .7, .1)
 const count = 50
 for (let i = 0; i < count; i++) {
